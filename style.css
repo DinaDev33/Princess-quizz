@@ -1,0 +1,203 @@
+body {
+
+background-color: rgb(209, 237, 247);
+transition: background-color 4s ease-in-out; 
+}
+
+
+.headingOne{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.guess{
+display: flex;
+flex-direction: column;
+background-color:rgb(233, 225, 225, 0.2);
+
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+padding: 20px;
+justify-content: center;
+align-items: center;
+width: 750px;
+box-shadow: 0 0 10px black;
+}
+
+.answers{
+display: flex;
+padding: 3px;
+ flex-direction: column;
+ align-items: center;  
+
+} 
+
+h1{
+color:  rgb(2, 37, 78);
+text-align: center;
+text-shadow: 0 0 3px rgb(224, 231, 240);
+font-size: 55px;
+font-family: "Patrick Hand SC", cursive;
+
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Vollkorn", serif;
+    color: rgba(3, 53, 110);
+    
+}
+label {
+   
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    margin: 60px 5px 0px 5px;
+    width: 400px;
+    text-align: center;
+  
+}
+.image{
+
+    width:200px;
+    height:150px ;
+    box-shadow: 0 0 10px black
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+
+   border: solid 2px black;
+
+ 
+}
+
+span {
+
+    font-size: 18px;
+    background-color:rgb(233, 225, 225, 0.8);
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 0px 8px;
+    width: 190px;
+    font-weight: bold;
+    text-align:center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px  rgba(3, 53, 110, 0.8);
+    font-family: "Open Sans", sans-serif;
+}
+.par {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+ align-items: center;
+
+    
+}
+
+.parTwo {
+    margin-top: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+#btn{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 25px;
+    width: 250px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgba(3, 53, 110);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 3px rgba(198, 212, 219, 0.35);
+    transition: .3s all ease-in-out;
+    border-style: none;
+}
+#btn:hover {
+    color:  white;
+    border-style: none;
+    background-color: rgba(7, 60, 109, 0.7);
+    box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.85);
+    
+}
+
+#show {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 200px;
+    font-family: "Patrick Hand SC", cursive;
+    font-size: 60px;
+    color: red;
+    text-shadow: 0 0 10px rgb(27, 8, 71);
+   font-weight:900;
+    padding: 10px 25px;
+    text-align: center;
+    display: none;
+}
+    
+
+
+
+
+    @media all and (max-width:500px) {
+        label {
+            width: 70%;
+        }
+        .answers {
+            flex-direction: column;
+            justify-items: center;
+        }
+        span {
+            width: 150px;
+            margin: 10px auto;
+        }
+        .parTwo{
+            margin-top: 0px;
+        }
+        h1{
+            font-size: 35px;
+        }
+    }
+    
+    
+ 
+   div{
+background-color:#76bffc'
+        #f5768b
+        #f080b8
+        #d946ef
+        #be82f5
+        #9d76f8
+        #6366f1
+        rgb(78, 142, 245)
+        #0ea5e9
+        #29c1db
+        #14b8a6
+        #29b888
+        #41da79
+        #93ce3a
+        #f3c63e
+        #f7b139
+        #f1893f
+        #ec6a6a
+    }
